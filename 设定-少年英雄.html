@@ -1,0 +1,200 @@
+<!DOCTYPE HTML>
+<html lang="zh" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>少年英雄 - 少年英雄跑团手册</title>
+                
+
+        <!-- Custom HTML head -->
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+                <link rel="icon" href="favicon.svg">
+                        <link rel="shortcut icon" href="favicon.png">
+                <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+                <link rel="stylesheet" href="css/print.css" media="print">
+        
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+                <link rel="stylesheet" href="fonts/fonts.css">
+        
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+            </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="简介.html"><strong aria-hidden="true">1.</strong> 简介</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.</strong> 设定</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="设定-少年英雄.html" class="active"><strong aria-hidden="true">2.1.</strong> 少年英雄</a></li><li class="chapter-item expanded "><a href="设定-调教文化.html"><strong aria-hidden="true">2.2.</strong> 调教文化</a></li><li class="chapter-item expanded "><a href="设定-浩劫级魔兽.html"><strong aria-hidden="true">2.3.</strong> 浩劫级魔兽</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.4.</strong> 势力</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="设定-势力-D程序.html"><strong aria-hidden="true">2.4.1.</strong> D程序</a></li><li class="chapter-item expanded "><a href="设定-势力-S基金会.html"><strong aria-hidden="true">2.4.2.</strong> S基金会</a></li><li class="chapter-item expanded "><a href="设定-势力-终末乐团.html"><strong aria-hidden="true">2.4.3.</strong> 终末乐团</a></li><li class="chapter-item expanded "><a href="设定-势力-小英雄革命军.html"><strong aria-hidden="true">2.4.4.</strong> 小英雄革命军</a></li><li class="chapter-item expanded "><a href="设定-势力-灿银重工.html"><strong aria-hidden="true">2.4.5.</strong> 灿银重工</a></li></ol></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.</strong> 规则</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="规则-骰子规则.html"><strong aria-hidden="true">3.1.</strong> 骰子规则</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="规则-使用检定.html"><strong aria-hidden="true">3.1.1.</strong> 需要检定的行动</a></li></ol></li><li class="chapter-item expanded "><a href="规则-创建小英雄.html"><strong aria-hidden="true">3.2.</strong> 创建小英雄</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.3.</strong> 战斗规则</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">3.3.1.</strong> 战斗开始</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="规则-战斗-顺序.html"><strong aria-hidden="true">3.3.1.1.</strong> 决定顺序</a></li><li class="chapter-item expanded "><a href="规则-战斗-状态.html"><strong aria-hidden="true">3.3.1.2.</strong> 状态</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.3.2.</strong> 发起进攻</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">3.3.2.1.</strong> 攻击方式</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="规则-战斗-武器.html"><strong aria-hidden="true">3.3.2.1.1.</strong> 武器</a></li><li class="chapter-item expanded "><a href="规则-战斗-距离.html"><strong aria-hidden="true">3.3.2.1.2.</strong> 距离</a></li><li class="chapter-item expanded "><a href="规则-战斗-技能.html"><strong aria-hidden="true">3.3.2.1.3.</strong> 技能</a></li><li class="chapter-item expanded "><a href="规则-战斗-偷袭.html"><strong aria-hidden="true">3.3.2.1.4.</strong> 偷袭</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.3.2.2.</strong> 特殊效果</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="规则-战斗-穿透.html"><strong aria-hidden="true">3.3.2.2.1.</strong> 穿透</a></li><li class="chapter-item expanded "><a href="规则-战斗-命中.html"><strong aria-hidden="true">3.3.2.2.2.</strong> 命中</a></li><li class="chapter-item expanded "><a href="规则-战斗-暴击.html"><strong aria-hidden="true">3.3.2.2.3.</strong> 暴击</a></li></ol></li><li class="chapter-item expanded "><a href="规则-战斗-伤害.html"><strong aria-hidden="true">3.3.2.3.</strong> 伤害计算</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.3.3.</strong> 防守与反击</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="规则-战斗-格挡.html"><strong aria-hidden="true">3.3.3.1.</strong> 格挡</a></li><li class="chapter-item expanded "><a href="规则-战斗-闪避.html"><strong aria-hidden="true">3.3.3.2.</strong> 闪避</a></li><li class="chapter-item expanded "><a href="规则-战斗-反击.html"><strong aria-hidden="true">3.3.3.3.</strong> 反击</a></li><li class="chapter-item expanded "><a href="规则-战斗-濒死判定.html"><strong aria-hidden="true">3.3.3.4.</strong> 濒死判定</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.3.4.</strong> 帮助你的同伴</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="规则-战斗-医疗.html"><strong aria-hidden="true">3.3.4.1.</strong> 医疗</a></li><li class="chapter-item expanded "><a href="规则-战斗-援护.html"><strong aria-hidden="true">3.3.4.2.</strong> 援护</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.3.5.</strong> 战斗结束</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="规则-战斗-战利品.html"><strong aria-hidden="true">3.3.5.1.</strong> 战利品</a></li><li class="chapter-item expanded "><a href="规则-战斗-战败.html"><strong aria-hidden="true">3.3.5.2.</strong> 战败</a></li><li class="chapter-item expanded "><a href="规则-战斗-奇迹判定.html"><strong aria-hidden="true">3.3.5.3.</strong> 奇迹判定</a></li></ol></li></ol></li></ol></li></ol>            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                                                <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                                            </div>
+
+                    <h1 class="menu-title">少年英雄跑团手册</h1>
+
+                    <div class="right-buttons">
+                                                <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                                                                        
+                    </div>
+                </div>
+
+                                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="少年英雄"><a class="header" href="#少年英雄">少年英雄</a></h1>
+<p>附属特性是这个世界人们所普遍拥有的能力，他或多或少的会为人们提供一些烦恼和便利，直到被称为异能的特殊能力被发现，这一切都改变了。异能是附属特性的绝对上位者，拥有着附属特性无法匹敌的力量，在这种力量的诱导下旷日持久的“外部战争”开始了，各种各样的重火力武器与异能者之间异能的对拼使得这个世界伤痕累累，战场战争却因为一次陨石而被彻底扭转了局面，天降陨石带来一种全新的物质“EVOL”，z博士将EVOL作为了名为核心的装置，人们用他们为异能者们制作了战衣，一名叫做杨的少年带着他的二十位同伴引领着所有志同道合的异能者终结了战争。</p>
+<p>战争虽然被终结，但是EVOL物质让一些动植物也发生了进化，这些动植物变得同样的强大可怕，后世将这些动植物命名为魔兽。为了应对新的危机，杨与伙伴们建立了英雄协会，自己与同伴们抹去姓名，建立审判会管理协会，而异能者们也分分加入。转眼间百年已过，在这一百年间，人类因为过渡研究EVOL物质与魔兽所产生了新的变异种族“怪人”，怪人会掩藏在人类之间，但是他体内的精神会让他不由自主的攻击人类。</p>
+<p>十年前，发生了“血夜战争”，魔兽们联合起来对人类发动了总攻击，英雄们殊死抵抗，浴血奋战重创了魔兽族群，但这也让英雄大量减少，迫不得已，协会启动了“少年英雄”计划，将少年异能者们编入英雄的行列，这个时代被称为“少年英雄时代”</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                                                    <a rel="prev" href="简介.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+                                                    <a rel="next" href="设定-调教文化.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                                    <a rel="prev" href="简介.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+                                    <a rel="next" href="设定-调教文化.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                            </nav>
+
+        </div>
+
+        
+        
+        
+                <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+        
+                <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+        
+    </body>
+</html>
